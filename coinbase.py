@@ -17,5 +17,5 @@ def on_message(ws, message):
     
 
 socket = 'wss://ws-feed.pro.coinbase.com'
-ws = websocket.WebSocketApp(socket, on_open=initialize, on_message=on_message)
+ws = websocket.WebSocket(socket)
 ws.run_forever()
