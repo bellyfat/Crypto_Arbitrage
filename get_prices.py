@@ -16,10 +16,9 @@ uma = "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
 sushi = "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
 link = "0x514910771AF9Ca656af840dff83E8264EcF986CA"
 enj = "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
-chi = "0x0000000000004946c0e9F43F4Dee607b0eF1fA1c"
 mana = "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
 
-currency_map = {'eth': eth, 'bat': bat, 'dai': dai, 'aave': aave, 'alp': alp, 'uma': uma, 'sushi': sushi, 'link': link, 'enj': enj, 'chi': chi, 'mana': mana}
+currency_map = {'eth': eth, 'bat': bat, 'dai': dai, 'aave': aave, 'alp': alp, 'uma': uma, 'sushi': sushi, 'link': link, 'enj': enj, 'mana': mana}
 currencies = list(currency_map.keys())
 
 def fetch_price(token0, token1):
